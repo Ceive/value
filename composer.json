@@ -1,0 +1,17 @@
+{
+    "name": "ceive/value",
+    "description": "...",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/util": "dev-master",
+	  "ceive/data-value-accessor": "dev-master",
+	  "ceive/data-compare": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Value\\": "src/"
+	  }
+	}
+}
