@@ -7,7 +7,8 @@
  */
 namespace Ceive\Value\Helper {
 	
-	use Ceive\RegExp;
+	use Ceive\Util\RegExp;
+	
 	
 	/**
 	 * Class HelperString

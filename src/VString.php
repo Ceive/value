@@ -8,10 +8,6 @@
 
 namespace Ceive\Value {
 
-	/**
-	 * Phalcon dependency injected , temporal
-	 */
-	use Ceive\RegExp;
 	
 	/**
 	 * Class VString
