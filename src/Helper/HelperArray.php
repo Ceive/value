@@ -8,6 +8,7 @@
 namespace Ceive\Value\Helper {
 	
 	use Ceive\Data\OuterValueAccessor\ValueAccessor;
+	use Ceive\Util\Data\Cmp;
 	use Ceive\Util\Named\NamedInterface;
 	use Ceive\Value\Helper\HelperCmp as UtilCmp;
 	
@@ -831,7 +832,7 @@ namespace Ceive\Value\Helper {
 		 * Если FALSE то вернет false в случае не находения ключа в $array
 		 * TRUE дает характер пропуска
 		 * @param bool $checkIsset
-		 * @return array
+		 * @return array|bool
 		 */
 		public static function orderedAssoc(array $array,array $keys, $skipStrict = false, $checkIsset = false){
 			$a = [];
