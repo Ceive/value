@@ -10,6 +10,7 @@
 namespace Ceive\Value\Helper {
 
 	/**
+	 * TODO: Move in specify HTTP package
 	 * Class HelperUserAgent
 	 * @package Ceive\Value\Helper
 	 */
